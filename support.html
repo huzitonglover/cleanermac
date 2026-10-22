@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CleanerMac Support · 技术支持</title>
+<meta name="description" content="CleanerMac 常见问题和联系方式。CleanerMac FAQ and contact.">
+<link rel="stylesheet" href="style.css">
+<script src="lang.js"></script>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="support.html">CleanerMac</a>
+    <nav>
+      <a href="privacy.html"><span lang="zh-Hans">隐私政策</span><span lang="en">Privacy</span></a>
+      <a class="active" href="support.html"><span lang="zh-Hans">技术支持</span><span lang="en">Support</span></a>
+    </nav>
+    <button class="lang" type="button" aria-label="Switch language"><span lang="zh-Hans">English</span><span lang="en">中文</span></button>
+  </div>
+</header>
+
+<main>
+  <!-- ========== 简体中文 ========== -->
+  <article lang="zh-Hans">
+    <h1>CleanerMac 技术支持</h1>
+    <p class="meta">一键清理 Mac 垃圾，看清空间去哪了。需要 macOS 14 Sonoma 或更高版本。</p>
+
+    <section class="card summary">
+      <h2>联系我们</h2>
+      <p>遇到问题、发现 Bug 或有功能建议，欢迎发邮件给我们，通常会在 3 个工作日内回复。</p>
+      <div class="contact">
+        <a class="btn" href="mailto:345499860@qq.com?subject=CleanerMac%20%E5%8F%8D%E9%A6%88">发送邮件</a>
+        <a href="mailto:345499860@qq.com">345499860@qq.com</a>
+      </div>
+      <p>为了更快解决问题，请在邮件里写上：macOS 版本、CleanerMac 版本（菜单栏 CleanerMac › 关于 CleanerMac）、出问题的功能和操作步骤，有截图更好。</p>
+    </section>
+
+    <section class="card">
+      <h2>快速上手</h2>
+      <ol>
+        <li>打开 CleanerMac，按提示授权磁盘访问（打开面板已经定位到启动磁盘，点「授权」即可）。</li>
+        <li>在「智能扫描」页点「扫描」。</li>
+        <li>查看结果，勾选要处理的项目，点操作按钮并确认。</li>
+        <li>侧边栏的清理、防护、性能、应用程序、我的杂物、电脑空间等模块用法相同：扫描、查看、确认。</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>常见问题</h2>
+
+      <details>
+        <summary>为什么要授权磁盘访问？</summary>
+        <div><p>CleanerMac 运行在 Apple 沙盒中，默认只能访问自己的容器。授权后才能扫描你电脑里的缓存、日志、大文件和应用残留。授权只保存在本机，可以随时在 CleanerMac「设置」中撤销。</p></div>
+      </details>
+
+      <details>
+        <summary>需要开启「完全磁盘访问」吗？</summary>
+        <div><p>不是必须的。不开启也能正常使用，只是少数受系统保护的文件夹（如邮件、Safari 数据）扫描不到。如需开启：打开「系统设置 › 隐私与安全性 › 完全磁盘访问」，打开 CleanerMac 的开关，然后重新启动 CleanerMac。</p></div>
+      </details>
+
+      <details>
+        <summary>清理掉的文件还能找回来吗？</summary>
+        <div><p>大多数可以。默认情况下文件会移到<strong>废纸篓</strong>：打开访达里的废纸篓，选中文件，右键选「放回原处」即可。</p>
+        <p>以下几类会直接永久删除（清理前都会提示并请你确认）：清空废纸篓、应用会自动重建的系统缓存和日志、Xcode 编译缓存和设备日志。这些文件删除后应用会按需重新生成，不影响使用。</p></div>
+      </details>
+
+      <details>
+        <summary>清理会不会删掉重要文件或系统文件？</summary>
+        <div><p>不会删除系统文件。所有清理都会先列出项目让你确认，你可以取消勾选任何不想处理的项目。对于「大文件」「重复文件」「旧文件」这类涉及你个人文件的结果，请逐项确认后再清理。</p></div>
+      </details>
+
+      <details>
+        <summary>卸载应用后，为什么应用本体还在？</summary>
+        <div><p>受 App Store 沙盒限制，CleanerMac 无法删除应用程序本体。卸载功能会清理该应用的残留文件（偏好设置、缓存、支持文件等），应用本体请在访达的「应用程序」文件夹中拖到废纸篓，或在启动台中长按删除。</p></div>
+      </details>
+
+      <details>
+        <summary>扫描结果为空或比预期少？</summary>
+        <div><ul>
+          <li>确认已授权磁盘访问：在 CleanerMac「设置」中查看授权状态，必要时重新授权并选择启动磁盘（Macintosh HD）。</li>
+          <li>部分位置需要「完全磁盘访问」才能扫描，见上方说明。</li>
+          <li>如果刚清理过，垃圾文件少是正常的。</li>
+        </ul></div>
+      </details>
+
+      <details>
+        <summary>如何关闭菜单栏助手？</summary>
+        <div><p>在 CleanerMac「设置」中关闭菜单栏助手，或在「系统设置 › 通用 › 登录项」中关闭 CleanerMacMenu。关闭后它会退出，下次开机也不会自动启动。</p></div>
+      </details>
+
+      <details>
+        <summary>网络测速是怎么工作的？会上传我的数据吗？</summary>
+        <div><p>只有你在菜单栏助手里点「测速」时，才会运行 macOS 自带的 <code>networkQuality</code> 工具，连接 Apple 的测速服务器。测速结果只显示在本机，CleanerMac 不会上传任何数据。如果测速失败，请检查网络连接，或稍后再试。</p></div>
+      </details>
+
+      <details>
+        <summary>CleanerMac 会收集我的数据吗？</summary>
+        <div><p>不会。没有账号、没有统计分析和第三方 SDK，扫描和清理全部在本机完成。详见<a href="privacy.html">隐私政策</a>。</p></div>
+      </details>
+
+      <details>
+        <summary>如何完全移除 CleanerMac？</summary>
+        <div><ol>
+          <li>在 CleanerMac「设置」中关闭菜单栏助手。</li>
+          <li>退出 CleanerMac，在访达「应用程序」中把 CleanerMac 拖到废纸篓。</li>
+          <li>如需同时清除设置，可删除 <code>~/Library/Containers/com.claenmac.sweep</code>、<code>~/Library/Containers/com.claenmac.sweep.menu</code> 和 <code>~/Library/Group Containers/group.com.claenmac.sweep</code>。</li>
+        </ol></div>
+      </details>
+
+      <details>
+        <summary>如何申请退款？</summary>
+        <div><p>App Store 的购买由 Apple 处理，请访问 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> 申请退款。</p></div>
+      </details>
+    </section>
+  </article>
+
+  <!-- ========== English ========== -->
+  <article lang="en">
+    <h1>CleanerMac Support</h1>
+    <p class="meta">Clean junk and see where your space went. Requires macOS 14 Sonoma or later.</p>
+
+    <section class="card summary">
+      <h2>Contact us</h2>
+      <p>Found a bug, need help, or have a feature idea? Email us — we usually reply within 3 business days.</p>
+      <div class="contact">
+        <a class="btn" href="mailto:345499860@qq.com?subject=CleanerMac%20Support">Email Support</a>
+        <a href="mailto:345499860@qq.com">345499860@qq.com</a>
+      </div>
+      <p>To help us respond faster, please include your macOS version, CleanerMac version (CleanerMac › About CleanerMac), the feature involved, the steps you took, and a screenshot if possible.</p>
+    </section>
+
+    <section class="card">
+      <h2>Getting started</h2>
+      <ol>
+        <li>Open CleanerMac and grant disk access when asked (the panel opens at your startup disk; just click "Grant Access").</li>
+        <li>On the Smart Scan screen, click "Scan".</li>
+        <li>Review the results, select items, click the action button and confirm.</li>
+        <li>The other modules in the sidebar (Cleanup, Protection, Performance, Applications, My Clutter, Mac Space) work the same way: scan, review, confirm.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>FAQ</h2>
+
+      <details>
+        <summary>Why does CleanerMac need disk access?</summary>
+        <div><p>CleanerMac runs in the Apple App Sandbox and can only see its own container by default. Granting access lets it scan caches, logs, large files and app leftovers on your Mac. Access is stored only on your Mac and can be revoked any time in CleanerMac Settings.</p></div>
+      </details>
+
+      <details>
+        <summary>Do I need Full Disk Access?</summary>
+        <div><p>No. The app works without it; only a few protected folders (such as Mail and Safari data) can't be scanned. To enable it, open System Settings › Privacy &amp; Security › Full Disk Access, turn on CleanerMac, then restart CleanerMac.</p></div>
+      </details>
+
+      <details>
+        <summary>Can I get removed files back?</summary>
+        <div><p>Usually, yes. By default files are moved to the <strong>Trash</strong>: open the Trash in Finder, select the files, right-click and choose "Put Back".</p>
+        <p>These are deleted permanently (you're always told and asked to confirm first): emptying the Trash, system caches and logs that apps rebuild automatically, and Xcode build caches and device logs. Apps regenerate these as needed.</p></div>
+      </details>
+
+      <details>
+        <summary>Could cleaning remove important or system files?</summary>
+        <div><p>CleanerMac never removes system files. Every cleanup lists the items first, and you can deselect anything you want to keep. For results that involve your own files — large, duplicate or old files — please review each item before removing it.</p></div>
+      </details>
+
+      <details>
+        <summary>I uninstalled an app, but the app itself is still there.</summary>
+        <div><p>Because of the App Store sandbox, CleanerMac can't delete application bundles. The uninstaller removes the app's leftovers (preferences, caches, support files); please drag the app itself from the Applications folder to the Trash in Finder.</p></div>
+      </details>
+
+      <details>
+        <summary>Scan results are empty or smaller than expected.</summary>
+        <div><ul>
+          <li>Make sure disk access is granted: check its status in CleanerMac Settings, and grant it again for your startup disk (Macintosh HD) if needed.</li>
+          <li>Some locations require Full Disk Access (see above).</li>
+          <li>If you cleaned recently, finding little junk is normal.</li>
+        </ul></div>
+      </details>
+
+      <details>
+        <summary>How do I turn off the menu bar helper?</summary>
+        <div><p>Turn it off in CleanerMac Settings, or switch off CleanerMacMenu in System Settings › General › Login Items. It quits right away and won't start at login.</p></div>
+      </details>
+
+      <details>
+        <summary>How does the speed test work? Does it send my data?</summary>
+        <div><p>Only when you click "Test Speed" in the menu bar helper, it runs the built-in macOS tool <code>networkQuality</code>, which connects to Apple's test servers. Results stay on your Mac; CleanerMac sends no data. If the test fails, check your connection and try again later.</p></div>
+      </details>
+
+      <details>
+        <summary>Does CleanerMac collect my data?</summary>
+        <div><p>No. There's no account, no analytics and no third-party SDKs; scanning and cleaning happen entirely on your Mac. See the <a href="privacy.html">Privacy Policy</a>.</p></div>
+      </details>
+
+      <details>
+        <summary>How do I completely remove CleanerMac?</summary>
+        <div><ol>
+          <li>Turn off the menu bar helper in CleanerMac Settings.</li>
+          <li>Quit CleanerMac and drag it from Applications to the Trash.</li>
+          <li>To remove its settings too, delete <code>~/Library/Containers/com.claenmac.sweep</code>, <code>~/Library/Containers/com.claenmac.sweep.menu</code> and <code>~/Library/Group Containers/group.com.claenmac.sweep</code>.</li>
+        </ol></div>
+      </details>
+
+      <details>
+        <summary>How do I request a refund?</summary>
+        <div><p>App Store purchases are handled by Apple. Visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> to request a refund.</p></div>
+      </details>
+    </section>
+  </article>
+</main>
+
+<footer>© 2026 CleanerMac · <a href="privacy.html"><span lang="zh-Hans">隐私政策</span><span lang="en">Privacy Policy</span></a></footer>
+</body>
+</html>
